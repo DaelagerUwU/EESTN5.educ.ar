@@ -3,10 +3,15 @@
   --night: #0C0D0F;
   --amber: #FFC107;
   --seagreen: #198754;
-  --white: #FFFFFF;
+  --white:#FFFFFF;
   --red: #D50E18;
 }
-
+body{
+  @media (max-width: 600px) {
+  display: flex;
+  flex-direction: column;
+}
+}
 
 body {
   font-family: Arial, sans-serif;
